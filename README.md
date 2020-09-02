@@ -18,11 +18,17 @@ The algorithm is implemented as a python class called LE.
 
 ###### Parameters
 
-| Parameter | Description                                                  |
-| --------- | ------------------------------------------------------------ |
-| **X**     | {array-like, sparse matrix}, shape (n_samples, n_features). Data matrix |
-| **dim**   | number of components to extract                              |
-| **eps**   | epsilon hyperparameter. Only used if graph = 'eps'           |
+| Parameter         | Description                                                  |
+| ----------------- | :----------------------------------------------------------- |
+| **X**             | {array-like, sparse matrix}, shape (n_samples, n_features). Data matrix |
+| **dim**           | number of components to extract                              |
+| **graph**         | if set to 'k-nearest', two points are neighbours if one is the k nearest point of the other. If set to 'eps', two points are neighbours if their distance is less than epsilon |
+| **eps**           | epsilon hyperparameter. Only used if graph = 'eps'. If is set to None, then epsilon is computed to be the minimum one which guarantees G to be connected |
+| **k**             | number of neighbours. Only used if graph = 'k-nearest'       |
+| **weights**       | if set to 'heat kernel', the similarity between two points is computed using the heat kernel approach. If set to 'rbf' the similarity between two points is computed using the gaussian kernel approach. If set to 'simple', the weight between two points is 1 if they are connected and 0 otherwise. |
+| **sigma**         | coefficient for gaussian kernel or heat kernel               |
+| **laplacian**     | if set to 'unnormalized', eigenvectors are obtained by solving the generalized eigenvalue problem Ly = λDy where L is the unnormalized laplacian matrix. If set to 'random', eigenvectors are obtained by decomposing the Random Walk Normalized Laplacian matrix. If set to 'symmetrized', eigenvectors are obtained by decomposing the Symmetrized Normalized Laplacian |
+| **opt_eps_jumps** | increasing factor for epsilon                                |
 
 
 
