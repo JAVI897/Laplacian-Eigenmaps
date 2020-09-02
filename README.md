@@ -34,13 +34,13 @@ Note: To chose the minimum epsilon which guarantees G to be connected, first, ep
 
 ###### Attributes
 
-| Attribute |                                                  Description |
-| --------- | -----------------------------------------------------------: |
+| Attribute | Description                                                  |
+| --------- | :----------------------------------------------------------- |
 | **Y**     | array, shape = (n_samples, dim). Embeddings of data matrix X |
-| **W**     |                                                weight matrix |
+| **W**     | weight matrix                                                |
 | **D**     | diagonal matrix which elements are the sum of  the rows of W |
-| **G**     |       adjacency matrix of the constructed neighborhood graph |
-| **L**     |         unnormalized Laplacian matrix. Computed as L = D - W |
-| **Ls**    | symmetrized Normalized Laplacian. Computed as; D<sup>(-1/2) </sup> LD<sup>(-1/2)</sup> |
-| **Lr**    |                                                              |
+| **G**     | adjacency matrix of the constructed neighborhood graph       |
+| **L**     | unnormalized Laplacian matrix. Computed as L = D - W         |
+| **Ls**    | symmetrized Normalized Laplacian. Computed as; D<sup>(-1/2) </sup> LD<sup>(-1/2)</sup>. Sometimes referred as the *normalized* Laplacian |
+| **Lr**    | random Walk Normalized Laplacian. Computed as; D<sup>-1 </sup>L. This matrix is also called (sometimes) the *normalized* Laplacian 😆😆 |
 
