@@ -44,3 +44,11 @@ Note: To chose the minimum epsilon which guarantees G to be connected, first, ep
 | **Ls**    | symmetrized Normalized Laplacian. Computed as; D<sup>(-1/2) </sup> LD<sup>(-1/2)</sup>. Sometimes referred as the *normalized* Laplacian |
 | **Lr**    | random Walk Normalized Laplacian. Computed as; D<sup>-1 </sup>L. This matrix is also called (sometimes) the *normalized* Laplacian 😆😆 |
 
+Note: Except Y, the other attributes are protected attributes. In the (weird) case you want to access to any of them you can do it just like any other public attribute (Python... such a generous guy).
+
+###### Methods
+
+| Method | Description |
+| ------ | ----------- |
+|        |             |
+
