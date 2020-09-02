@@ -72,6 +72,8 @@ Y = le.transform()
 
 ### Results
 
+Here are some results obtained with this algorithm. For more examples see; [Example LE](https://nbviewer.jupyter.org/github/JAVI897/Laplacian-Eigenmaps/blob/master/example%20LE.ipynb)
+
 ###### LE - Swiss Roll
 
 <img src="https://github.com/JAVI897/Laplacian-Eigenmaps/blob/master/img/swiss-roll.png" style="zoom:70%;" />
@@ -79,3 +81,7 @@ Y = le.transform()
 ###### LE - MNIST
 
 <img src="https://github.com/JAVI897/Laplacian-Eigenmaps/blob/master/img/mnist.png" style="zoom:70%;" />
+
+###### LE - Twin Peaks Dataset
+
+<img src="https://github.com/JAVI897/Laplacian-Eigenmaps/blob/master/img/twin.png" style="zoom:70%;" />
