@@ -48,7 +48,10 @@ Note: Except Y, the other attributes are protected attributes. In the (weird) ca
 
 ###### Methods
 
-| Method | Description |
-| ------ | ----------- |
-|        |             |
+| Method                | Description                                                  |
+| --------------------- | ------------------------------------------------------------ |
+| **transform**         | Computes eigenvalues and eigenvectors of the specified Laplacian Matrix. Returns the first eigenvectors asociated to the smallest non-zero eigenvalues |
+| **plot_embedding_2d** | Plots embeddings in two dimensions                           |
+| **plot_embedding_3d** | Plots embeddings in three dimensions                         |
 
+Note: If the Laplacian matrix specified is the Unnormalized Laplacian matrix, then eigenvectors are found by solving the generalized eigenvalue problem using eigh from scipy. 
