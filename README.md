@@ -74,4 +74,4 @@ Y = le.transform()
 
 ###### LE - Swiss Roll
 
-<center><img src="\img\swiss-roll.png" style="zoom:90%;" /></center>
+<img src="https://github.com/JAVI897/Laplacian-Eigenmaps/blob/master/img/swiss-roll.png" style="zoom:70%;" />
