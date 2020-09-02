@@ -59,3 +59,16 @@ Note: Except Y, the other attributes are protected attributes. In the (weird) ca
 | **plot_embedding_3d** | Plots embeddings in three dimensions                         |
 
 Note: If the Laplacian matrix specified is the Unnormalized Laplacian matrix, then eigenvectors are found by solving the generalized eigenvalue problem using eigh from scipy. 
+
+### Run
+
+```python
+from LE import LE
+X = np.array([[2,3,4], [1,2,3]]) # nxd
+le = LE(X, dim = 3, k = 3, graph = 'k-nearest', weights = 'heat kernel', 
+        sigma = 5, laplacian = 'symmetrized')
+Y = le.transform()
+```
+
+### Results
+
