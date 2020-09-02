@@ -6,11 +6,15 @@ Laplacian Eigenmaps is another method for non-linear dimensionality reduction. I
 
 Or you can also read my introduction to Laplacian Eigenmaps 😉; [Laplacian Eigenmaps](https://javi897.github.io/Laplacian_eigenmaps/)
 
-In this project it has been implemented a version of LEE. However, this implementation is not computationally optimal, this repository is primarily for research purposes.
+In this project it has been implemented a version of LE. However, this implementation is not computationally optimal, this repository is primarily for research purposes.
 
 ### Requirements
 
 - numpy
+- matplotlib
+- scipy
+- sklearn
+- networkx
 
 ### Usage
 
