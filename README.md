@@ -72,7 +72,7 @@ Y = le.transform()
 
 ### Results
 
-Here are some results obtained with this algorithm. For more examples see; [Example LE](https://nbviewer.jupyter.org/github/JAVI897/Laplacian-Eigenmaps/blob/master/example%20LE.ipynb)
+Here are some results obtained. For more examples see; [Example LE](https://nbviewer.jupyter.org/github/JAVI897/Laplacian-Eigenmaps/blob/master/example%20LE.ipynb)
 
 ###### LE - Swiss Roll
 
