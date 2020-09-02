@@ -75,3 +75,7 @@ Y = le.transform()
 ###### LE - Swiss Roll
 
 <img src="https://github.com/JAVI897/Laplacian-Eigenmaps/blob/master/img/swiss-roll.png" style="zoom:70%;" />
+
+###### LE - MNIST
+
+<img src="https://github.com/JAVI897/Laplacian-Eigenmaps/blob/master/img/mnist.png" style="zoom:70%;" />
