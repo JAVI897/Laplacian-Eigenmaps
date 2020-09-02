@@ -18,13 +18,11 @@ The algorithm is implemented as a python class called LE.
 
 ###### Parameters
 
-**X**: {array-like, sparse matrix}, shape (n_samples, n_features). Data matrix.
-
-**dim**: number of components to extract.
-
-**k**: number of neighbours. Only used if graph = 'k-nearest'.
-
-**eps**: epsilon hyperparameter. Only used if graph = 'eps'.
+| Parameter | Description                                                  |
+| --------- | ------------------------------------------------------------ |
+| **X**     | {array-like, sparse matrix}, shape (n_samples, n_features). Data matrix |
+| **dim**   | number of components to extract                              |
+| **eps**   | epsilon hyperparameter. Only used if graph = 'eps'           |
 
 
 
