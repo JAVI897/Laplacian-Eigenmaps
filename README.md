@@ -72,3 +72,6 @@ Y = le.transform()
 
 ### Results
 
+###### LE - Swiss Roll
+
+<center><img src="\img\swiss-roll.png" style="zoom:90%;" /></center>
