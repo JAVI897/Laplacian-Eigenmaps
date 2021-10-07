@@ -94,7 +94,7 @@ class LE:
         """
         k(x, y) = exp(- ||x-y|| / sigma )
         """
-        return np.exp(- dist/self.sigma)
+        return np.exp(- (dist*dist)/self.sigma)
     
     def __rbf(self, dist):
         """
